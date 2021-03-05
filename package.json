@@ -1,0 +1,32 @@
+{
+  "name": "vue3-clickaway",
+  "version": "1.0.0",
+  "description": "A Vue 3 directive to call a function when clicked outside of an element.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexshink/vue3-clickaway.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-directive",
+    "click",
+    "clickaway",
+    "outside"
+  ],
+  "author": "alexshink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexshink/vue3-clickaway/issues"
+  },
+  "homepage": "https://github.com/alexshink/vue3-clickaway#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.8"
+  }
+}
