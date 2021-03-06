@@ -3,8 +3,6 @@
 A directive that allows you to call a function when you click outside the active area of an element.
 The active area of an element is the element itself and any descendant nested within it.
 
-When clicked in the active area, the class `v-clickaway-active` is added to the element, otherwise it is removed.
-
 ## Requirements
 
 - Vue 3.x
@@ -49,6 +47,10 @@ export default {
 ```
 
 ## Usage (examples for global registration)
+
+When clicked in the active area, the class `v-clickaway-active` is added to the element, otherwise it is removed.
+
+The data that is passed to the callback function is an object with an element and an event: `{ el, event }`
 
 ```vue
 <template>
