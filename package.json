@@ -14,10 +14,13 @@
     "url": "git+https://github.com/alexshink/vue3-clickout.git"
   },
   "keywords": [
-    "vue",
-    "vue-directive",
+    "Vue",
+    "Vue.js",
+    "Vue 3",
+    "Vue directive",
     "click",
     "clickout",
+    "clickaway"
     "outside"
   ],
   "author": "alexshink",
