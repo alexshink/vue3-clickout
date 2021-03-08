@@ -1,6 +1,6 @@
 {
   "name": "vue3-clickout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue 3 directive to call a function when clicked outside of an element.",
   "main": "./src/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "Vue directive",
     "click",
     "clickout",
-    "clickaway"
+    "clickaway",
     "outside"
   ],
   "author": "alexshink",
