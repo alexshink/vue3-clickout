@@ -96,4 +96,4 @@ export default {
 
 ## License
 
-[MIT](https://github.com/alexshink/vue3-clickout/blob/main/LICENSE)
+[ISC](https://github.com/alexshink/vue3-clickout/blob/main/LICENSE)
