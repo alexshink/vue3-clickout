@@ -1,4 +1,4 @@
-# vue3-clickaway
+# vue3-clickout
 
 A directive that allows you to call a function when you click outside the active area of an element.
 The active area of an element is the element itself and any descendant nested within it.
@@ -10,7 +10,7 @@ The active area of an element is the element itself and any descendant nested wi
 ## Installation
 
 ```
-npm i vue3-clickaway
+npm i vue3-clickout
 ```
 
 ## Global registration
@@ -22,10 +22,10 @@ In main.js:
 import { createApp } from 'vue';
 import App from './App.vue';
 
-import vClickaway from 'vue3-clickaway';
+import vClickout from 'vue3-clickout';
 
 createApp(App)
-  .use(vClickaway)
+  .use(vClickout)
   .mount('#app');
 ```
 
@@ -36,11 +36,11 @@ When registering locally, the directive will be available for use only in the co
 In any component:
 ```vue
 <script>
-import vClickaway from "vue3-clickaway";
+import vClickout from "vue3-clickout";
 
 export default {
   directives: {
-    clickaway: vClickaway
+    clickout: vClickout
   }
 }
 </script>
@@ -48,13 +48,13 @@ export default {
 
 ## Usage (examples for global registration)
 
-When clicked in the active area, the class `v-clickaway-active` is added to the element, otherwise it is removed.
+When clicked in the active area, the class `v-clickout-active` is added to the element, otherwise it is removed.
 
 The data that is passed to the callback function is an object with an element and an event: `{ el, event }`
 
 ```vue
 <template>
-  <div v-clickaway="clickOutside">
+  <div v-clickout="clickOutside">
     ...
   </div>
 </template>
@@ -76,7 +76,7 @@ export default {
 
 ```vue
 <template>
-  <div v-clickaway="clickOutside">
+  <div v-clickout="clickOutside">
     ...
   </div>
 </template>
@@ -96,4 +96,4 @@ export default {
 
 ## License
 
-[MIT](https://github.com/alexshink/vue3-clickaway/blob/main/LICENSE)
+[MIT](https://github.com/alexshink/vue3-clickout/blob/main/LICENSE)

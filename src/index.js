@@ -1,13 +1,13 @@
-import vClickaway from './clickaway';
+import vClickout from './clickout';
 
 const install = function(Vue) {
-  Vue.directive('clickaway', vClickaway);
+  Vue.directive('clickout', vClickout);
 };
 
 if (window.Vue) {
   Vue.use(install);
 }
 
-vClickaway.install = install;
+vClickout.install = install;
 
-export default vClickaway;
+export default vClickout;

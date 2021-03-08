@@ -1,7 +1,7 @@
 module.exports = {
   beforeMount(el, binding) {
     const callback = binding.value;
-    const directiveClass = 'v-clickaway-active';
+    const directiveClass = 'v-clickout-active';
 
     el.clickEvent = function(event) {
       const elementIsActive = event.target === el || el.contains(event.target);
