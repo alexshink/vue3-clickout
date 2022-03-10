@@ -102,11 +102,13 @@ By default, a method or function is passed to a directive.
 If you need to pass arguments, then you need to pass it as an object:
 
 **event** *(method|function)*; required
+
 `<div v-clickout="{event: clickOutside}">`
 
 Analogue of the default behavior. Only method passed.
 
 **active** *(Boolean)*
+
 `<div v-clickout="{event: clickOutside, active: true}">`
 
 The element will be considered active immediately, as if you had already clicked on it. This can be useful if the target element is immediately displayed on the page waiting for the callback to be called (for example, when entering the page, there may already be a modal window or some other pop-up block). 
@@ -114,6 +116,7 @@ The element will be considered active immediately, as if you had already clicked
 • The directive class is immediately added to the target element
 
 **always** *(Boolean)*
+
 `<div v-clickout="{event: clickOutside, always: true}">`
 
 The element will always be considered active. The callback will ALWAYS be fired on every click outside of the target element. This can be useful if you need to point the user to some interactive part of the page where his participation is required and without which further actions are impossible. Or any other special occasion.
