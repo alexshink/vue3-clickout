@@ -101,13 +101,13 @@ By default, a method or function is passed to a directive.
 
 If you need to pass arguments, then you need to pass it as an object:
 
-**event** *(method|function)*; required
+### event *(method|function)*; required
 
 `<div v-clickout="{event: clickOutside}">`
 
 Analogue of the default behavior. Only method passed.
 
-**active** *(Boolean)*
+### active *(Boolean)*
 
 `<div v-clickout="{event: clickOutside, active: true}">`
 
@@ -115,7 +115,7 @@ The element will be considered active immediately, as if you had already clicked
 
 • The directive class is immediately added to the target element
 
-**always** *(Boolean)*
+### always *(Boolean)*
 
 `<div v-clickout="{event: clickOutside, always: true}">`
 
