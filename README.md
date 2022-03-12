@@ -101,7 +101,7 @@ By default, a method or function is passed to a directive.
 
 If you need to pass arguments, then you need to pass it as an object:
 
-### event *(method|function)*; required
+### event *(Function)*; required
 
 `<div v-clickout="{event: clickOutside}">`
 
