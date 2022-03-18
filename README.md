@@ -95,7 +95,7 @@ export default {
 </script>
 ```
 
-## Arguments
+## Options
 By default, a method or function is passed to a directive:<br>
 `<div v-clickout="clickOutsideFunction">`
 
