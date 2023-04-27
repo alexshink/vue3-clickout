@@ -21,7 +21,7 @@ module.exports = {
     }
 
     if ( typeof args === 'object' ) {
-      for (key in params) {
+      for (let key in params) {
         // Arguments 'require' checking
         const requiredArgNotExist = params[key].required && !(key in args);
         if ( requiredArgNotExist ) {
